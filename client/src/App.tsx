@@ -3,12 +3,10 @@
 // import viteLogo from '/vite.svg'
 
 import { BrowserRouter } from 'react-router';
-import { RouterWrapper } from '../src/components';
+import { RouterWrapper } from './components';
 import './App.css';
 
 function App() {
-    // const [count, setCount] = useState(0)
-
     return (
         <BrowserRouter>
             <RouterWrapper />
